@@ -1,0 +1,20 @@
+{
+  "name": "qrux",
+  "version": "1.0.0",
+  "description": "![NPM Version](https://img.shields.io/npm/v/qrux) ![License](https://img.shields.io/github/license/goodnesslu/qrux) ![Downloads](https://img.shields.io/npm/dt/qrux)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodnesslu/qrux.git"
+  },
+  "keywords": [],
+  "author": "Goodness Lu <goodnesslu.dev@gmail.com> (http://example.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodnesslu/qrux/issues"
+  },
+  "homepage": "https://github.com/goodnesslu/qrux#readme"
+}
