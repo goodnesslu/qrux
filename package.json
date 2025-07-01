@@ -1,20 +1,51 @@
 {
-  "name": "qrux",
-  "version": "1.0.0",
-  "description": "![NPM Version](https://img.shields.io/npm/v/qrux) ![License](https://img.shields.io/github/license/goodnesslu/qrux) ![Downloads](https://img.shields.io/npm/dt/qrux)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/goodnesslu/qrux.git"
-  },
-  "keywords": [],
-  "author": "Goodness Lu <goodnesslu.dev@gmail.com> (http://example.com/)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/goodnesslu/qrux/issues"
-  },
-  "homepage": "https://github.com/goodnesslu/qrux#readme"
+	"name": "qrux",
+	"version": "0.1.0",
+	"description": "A modern CLI to supercharge project scaffolding and package management.",
+	"type": "module",
+	"main": "./dist/index.js",
+	"bin": {
+		"qrux": "./dist/index.js"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc -w",
+		"start": "node ./dist/index.js",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/goodnesslu/qrux.git"
+	},
+	"keywords": [
+		"cli",
+		"scaffolding",
+		"automation",
+		"developer-tools",
+		"vite",
+		"react"
+	],
+	"author": "Goodness Lu <goodnesslu.dev@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/goodnesslu/qrux/issues"
+	},
+	"homepage": "https://github.com/goodnesslu/qrux#readme",
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"commander": "^14.0.0",
+		"execa": "^9.6.0",
+		"inquirer": "^12.6.3",
+		"js-levenshtein": "^1.1.6",
+		"ora": "^8.2.0"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^9.0.8",
+		"@types/js-levenshtein": "^1.1.3",
+		"@types/node": "^20.14.2",
+		"typescript": "^5.4.5"
+	}
 }
