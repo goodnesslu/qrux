@@ -1,5 +1,8 @@
 # qrux
 
+![](https://raw.githubusercontent.com/goodnesslu/qrux/main/.github/logo-dark.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/goodnesslu/qrux/main/.github/logo-light.svg#gh-light-mode-only)
+
 ![NPM Version](https://img.shields.io/npm/v/qrux)
 ![License](https://img.shields.io/github/license/goodnesslu/qrux)
 ![Downloads](https://img.shields.io/npm/dt/qrux)
@@ -12,10 +15,10 @@
 
 ## Key Features
 
-*   **Interactive Project Scaffolding:** Run `qrux create` and be guided through a professional setup for modern tech stacks. No more cloning boilerplate.
-*   **Intelligent Package Installer:** Use `qrux install` to find the exact package you need, even with typos.
-*   **Interactive Version Selection:** Never accidentally install the wrong major version again. `qrux` lets you pick the exact version you want to install from a list of all available versions.
-*   **Blazing Fast:** Written in TypeScript and optimized for a near-instant startup time.
+- **Interactive Project Scaffolding:** Run `qrux create` and be guided through a professional setup for modern tech stacks. No more cloning boilerplate.
+- **Intelligent Package Installer:** Use `qrux install` to find the exact package you need, even with typos.
+- **Interactive Version Selection:** Never accidentally install the wrong major version again. `qrux` lets you pick the exact version you want to install from a list of all available versions.
+- **Blazing Fast:** Written in TypeScript and optimized for a near-instant startup time.
 
 ## Installation
 
