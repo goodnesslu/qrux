@@ -1,7 +1,5 @@
-# qrux
-
-![](https://raw.githubusercontent.com/goodnesslu/qrux/main/.github/logo-dark.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/goodnesslu/qrux/main/.github/logo-light.svg#gh-light-mode-only)
+![](https://goodnesslu/qrux/main/.github/logo-dark.svg#gh-dark-mode-only)
+![](https://goodnesslu/qrux/main/.github/logo-light.svg#gh-light-mode-only)
 
 ![NPM Version](https://img.shields.io/npm/v/qrux)
 ![License](https://img.shields.io/github/license/goodnesslu/qrux)
